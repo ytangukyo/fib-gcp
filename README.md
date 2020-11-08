@@ -1,3 +1,4 @@
-### Fibonacci calculator with node.js running on GCP/Kubernetes. As a test, it uses 3 nodes. Nginx-ingress installed with Helm v3 (tiller no longer needed).
+### Fibonacci calculator with node.js running on GCP/Kubernetes. It is developed on a local minikube cluster.
 
-_NB: the containers were first tested on a local minikube cluster._
+
+_Note: Nginx-ingress installed using helm v3, tiller no longer needed._
