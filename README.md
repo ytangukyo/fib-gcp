@@ -1,5 +1,3 @@
-### Fibonacci calculator with node.js running on multi-container docker on AWS elastic beanstalk. This deployment uses AWS managed database services, namely RDS (postgres) and ElastCache (Redis).
+### Fibonacci calculator with node.js running on GCP/Kubernetes. As a test, it uses 3 nodes. Nginx-ingress installed with Helm v3 (tiller no longer needed).
 
-ElastiCache Redis is created with read-only replicas, meanning the endpoint should be set to its primary node.
-
-_Note: EB AL2 can now handle docker-compose for multi-container deployment. Check the pure EB repo._
+_NB: the containers were first tested on a local minikube cluster._
